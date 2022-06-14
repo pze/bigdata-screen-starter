@@ -17,6 +17,10 @@ make build
 
 ## QA
 
+2. 如何添加页面?
+
+参考 `package.json` 里面的 `targets`。
+
 1. 构建报错
 
 ```
