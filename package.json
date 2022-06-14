@@ -1,0 +1,52 @@
+{
+  "name": "bigdata-screen-starter",
+  "version": "1.0.0",
+  "description": "start template",
+  "scripts": {
+    "dev": "parcel serve --target index",
+    "build": "parcel build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "targets": {
+    "index": {
+      "includeNodeModules": true,
+      "sourceMap": false,
+      "source": "src/pages/index.html",
+      "engines": {
+        "browsers": "> 4%, last 2 versions, not dead"
+      }
+    },
+    "page1": {
+      "includeNodeModules": true,
+      "sourceMap": false,
+      "source": "src/pages/page1.html",
+      "engines": {
+        "browsers": "> 3%, last 2 versions, not dead"
+      }
+    },
+    "page2": {
+      "includeNodeModules": true,
+      "sourceMap": false,
+      "source": "src/pages/page2.html",
+      "engines": {
+        "browsers": "> 2%, last 2 versions, not dead"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/towry"
+  },
+  "keywords": [
+    "template",
+    "starter"
+  ],
+  "engines": {
+    "node": ">= 12"
+  },
+  "author": "Towry Wang <towry@vastvol.com>",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.6.0"
+  }
+}
